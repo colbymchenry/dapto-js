@@ -1,0 +1,24 @@
+.header__bar {
+	position: sticky !important;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow:hidden;
+	max-height: 20rem;
+	padding: 0 3rem !important;
+}
+
+.header {
+	height: 6rem !important;
+}
+
+.header__bar img {
+	height: 15rem;
+	width: auto;
+}
+
+@media screen and (max-width: 770px) {
+	.header__bar img {
+		margin-left: -100px;
+	}
+}
